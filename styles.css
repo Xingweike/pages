@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+  display: grid;
+  text-align: center;
+}
+
+#links {
+  margin-bottom:25px;
+}
+
+#head {
+  margin-top:2%;
+}
+
+.projects-left {
+  text-align: right;
+}
+
+.projects-right {
+  text-align: left;
+}
+
+.row {
+  margin-bottom:10px;
+  text-align: center;
+}
+
+img{
+    width:100%;
+    max-width:300px;
+    margin-bottom:5px;
+}
+
+.linebreak {
+  width: 100%
+}
+a {
+  margin-left: 3px;
+}
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    font-size: small;
+}
+
+.container {
+  max-width:600px;
+}

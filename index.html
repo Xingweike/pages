@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Tom Liu</title>
+
+</head>
+
+<body>
+  <!--
+            ___   ____
+        /' --;^/ ,-_\     \ | /
+       / / --o\ o-\ \\   --(_)--
+      /-/-/|o|-|\-\\|\\   / | \
+       '`  ` |-|   `` '
+             |-|  
+             |-|O  <( Hello! ) 
+             |-(\,__
+          ...|-|\--,\_....
+      ,;;;;;;;;;;;;;;;;;;;;;;;;,.
+~~,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,  ______   ---------   _____     ------
+
+  -->
+  <div id="head">
+    <h1>Tom Liu</h1>
+    <p>Software Engineer in San Jose</p>
+  </div>
+
+  <div >
+    <img src="./me.png" class="rounded-circle">
+  </div>
+  <div id="links">
+    <a target="_blank" rel="noopener noreferrer" href="./resume-5-2021.pdf">resume</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/xingweike">github</a>
+    <a href="mailto:xingweike@berkeley.edu" class="contact" id="contact" onclick="toggleText()">contact</a> 
+    <!-- href="mailto:xingweike@berkeley.edu" -->
+    <p class="email" id="email" style="display: none;">feel free to email me! xingweike@berkeley.edu</p>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <h4>About Me</h4>
+      <div class="linebreak"></div>
+      <p>
+        Recent Berkeley graduate. Experience with data structures, algorithms, and computer architecture. Have experience with NodeJS, Apache, SQL, Redis, Springboot, and RESTful API. Previous involvements with hackathons, internships, and various projects. Currently looking for further opportunities to expand my technological expertise!
+      </p>
+    </div>
+    <div class="row justify-content-center">
+      <h4>Education</h4>
+      <p>
+        University of California, Berkeley - 
+        Bachelor of Arts, Computer Science
+      </p>
+      <div class="linebreak"></div>
+      <p>Class of 2021</p>
+    </div>
+    <div class="row justify-content-center">
+      <h4>Skills</h4>
+      <div class="linebreak"></div>
+      <p>
+        Proficient: Java, Python, C, HTML/CSS, SQL
+      </p>
+      <div class="linebreak"></div>
+      <p>
+        Experienced: Javascript, ReactJS, Go, R
+      </p>
+      <div class="linebreak"></div>
+      <p>
+        Frameworks: NodeJS, Springboot, RESTful API, JUnit
+      </p>
+    </div>
+    <div class="row justify-content-center">
+      <h4>Experience</h4>
+      <div class="linebreak"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm projects-left">
+            8x8 Business Communications
+          </div>
+          <div class="col-sm projects-right">
+            Quality Engineer Intern, 2020 Summer
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm projects-left">
+            Zoom Video Communications
+          </div>
+          <div class="col-sm projects-right">
+            Web Development Intern, 2019 Summer
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm projects-left">
+            Moxtra Inc.
+          </div>
+          <div class="col-sm projects-right">
+            Software Intern, 2017 Summer
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row justify-content-center">
+      <h4>Projects</h4>
+      <div class="linebreak"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm projects-left">
+            Personal Profile Page
+          </div>
+          <div class="col-sm projects-right">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Xingweike/livepage1">github link</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm projects-left">
+            Simple Meeting Application
+          </div>
+          <div class="col-sm projects-right">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Xingweike/simple-meeting">github link</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://simple-meeting.herokuapp.com/">try it out!</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm projects-left">
+            Youtube Chat Translator
+          </div>
+          <div class="col-sm projects-right">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Xingweike/youtube-chat-translator">github link</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <script> 
+  function toggleText() {
+    var text = document.getElementById("email");
+    if (text.style.display === "none") {
+      text.style.display = "block";
+    } 
+  }
+  </script>
+
+
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">There's no copyright, no rights reserved :)
+</span>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
